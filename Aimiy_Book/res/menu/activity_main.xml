@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/meu_query"
+        android:alphabeticShortcut="u"
+        android:icon="@android:drawable/ic_input_get"
+        android:numericShortcut="4"
+        android:title="查询"/>
+   
+    <item
+        android:id="@+id/meu_insert"
+        android:alphabeticShortcut="a"
+        android:icon="@android:drawable/ic_input_add"
+        android:numericShortcut="1"
+        android:title="添加"/>
+   
+    <item
+        android:id="@+id/meu_modify"
+        android:alphabeticShortcut="f"
+        android:icon="@android:drawable/ic_input_delete"
+        android:numericShortcut="3"
+        android:title="修改"/>
+  
+    <item
+        android:id="@+id/meu_delete"
+        android:alphabeticShortcut="d"
+        android:icon="@android:drawable/ic_input_delete"
+        android:numericShortcut="2"
+        android:title="删除"/>
+
+</menu>

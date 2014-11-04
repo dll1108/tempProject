@@ -1,0 +1,64 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#0A95F5"
+        android:textSize="15sp" 
+        android:text="Sunshine  Forever --- modify"/>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:text="请输入书名" />
+
+        <EditText
+            android:id="@+id/mod_Bname"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textSize="12sp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:text="请输入作者" />
+
+        <EditText
+            android:id="@+id/mod_Aname"
+            android:layout_width="150dp"
+            android:layout_height="40dp" 
+            android:textSize="12sp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:text="请输入出版社" />
+
+        <EditText
+            android:id="@+id/mod_Dname"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textSize="12sp"/>
+    </TableRow>
+
+</TableLayout>

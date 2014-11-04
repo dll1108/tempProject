@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="图书管理"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/add_Button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:text="添加图书"
+        android:layout_gravity="center" />
+    
+    <ListView
+        android:id="@+id/x_lstv"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:footerDividersEnabled="true"
+        android:cacheColorHint="#00000000" />
+
+    <TextView
+        android:id="@+id/x_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:text="抱歉！\n本店暂时没有您要寻找的书！" />
+          
+    <Button
+        android:id="@+id/x_back"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_marginLeft="100dp"
+        android:text="返回" />
+    
+    <!--
+    	此属性意思是此视图是否显示，例如RelativeLayout中android:visibility="gone"
+		其有三个属性：visible显示；invisible显示黑背景条；gone不显示
+		在类中，可以设置其显示与否，setVisibility(View.GONE);不显示
+		setVisibility(View.VISIBLE);显示    -->
+
+</LinearLayout>

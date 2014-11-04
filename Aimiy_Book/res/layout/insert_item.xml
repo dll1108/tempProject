@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#0A95F5"
+        android:textSize="15sp"
+        android:text="Sunshine  Forever --- insert" />
+    
+    <EditText
+        android:id="@+id/add_Bname"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="12sp"
+        android:hint="请输入要添加的书名" />
+
+    <EditText
+        android:id="@+id/add_Aname"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="12sp"
+        android:hint="请输入所添加书的作者" />
+    
+    <EditText
+        android:id="@+id/add_Dname"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textSize="12sp"
+        android:hint="请输入相应的出版社" />
+
+
+</LinearLayout>
